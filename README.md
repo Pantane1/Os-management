@@ -29,6 +29,11 @@ You can view the page directly on
 **[GitHub Pages](https://pantane1.github.io/Os-management/)**
 
 
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ACAF50&center=true&vCenter=true&multiline=false&lines=PantaneHUb+Built-Different+API-Explorer" alt="pantane">
+</p>
+
+
 ## 🛠️ Built With
 
 - HTML5
@@ -68,10 +73,3 @@ All files are ready to be pushed to GitHub. Just create the three files above in
 
 --
 
-<p align="center">
-  <a href="#"><img src="https://github.com/Pantane1/nf/blob/main/public/ph.png" alt="ph-logo">
-</p>
-
-<p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ACAF50&center=true&vCenter=true&multiline=false&lines=Built+Different" alt="pantane">
-</p>

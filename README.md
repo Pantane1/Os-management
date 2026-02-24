@@ -65,3 +65,13 @@ You may want to add a screenshot of the page. Take a screenshot, save it as `pre
 ---
 
 All files are ready to be pushed to GitHub. Just create the three files above in a new repository, enable GitHub Pages, and your unique OS API explorer will be live.
+
+--
+
+<p align="center">
+  <a href="#"><img src="https://github.com/Pantane1/nf/blob/main/public/ph.png" alt="ph-logo">
+</p>
+
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ACAF50&center=true&vCenter=true&multiline=false&lines=Built+Different" alt="pantane">
+</p>

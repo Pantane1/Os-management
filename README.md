@@ -30,7 +30,7 @@ You can view the page directly on
 
 
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ACAF50&center=true&vCenter=true&multiline=false&lines=PantaneHUb+Built+Different+API+Explorer" alt="pantane">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ACAF50&center=true&vCenter=true&multiline=false&lines=PHUb+Built+Different+API+Exp0" alt="pantane">
 </p>
 
 

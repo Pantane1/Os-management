@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Management · API Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <!-- header with original diagram -->
+    <div class="header">
+        <h1>⚙️ <span>OS</span> Management · API Explorer</h1>
+        <div class="diagram">
+            <pre>
+OS Systems
+└── OS Management
+    ├── Main Memory
+    ├── The Management
+    │   ├── Process Management
+    │   └── IPC
+    ├── Access and Control
+    └── Interaction
+            </pre>
+        </div>
+        <div class="subtitle">
+            Based on a hierarchical OS report — three core APIs for each functional area.
+            <br>Designed for <a href="#">GitHub</a> · retro/terminal vibe.
+        </div>
+    </div>
+
+    <!-- grid of cards (five categories) -->
+    <div class="grid">
+        <!-- 1. Main Memory -->
+        <div class="card" data-category="memory">
+            <div class="card-header">
+                <span class="icon">🧠</span>
+                <h2>Main Memory</h2>
+            </div>
+            <ul class="api-list">
+                <li><strong>malloc()</strong> / free()<div class="desc">C heap allocation – dynamic memory from the free store.</div></li>
+                <li><strong>mmap()</strong><div class="desc">POSIX: map files or devices into memory (or anonymous).</div></li>
+                <li><strong>VirtualAlloc()</strong><div class="desc">Windows: reserve/commit pages in virtual address space.</div></li>
+            </ul>
+        </div>
+
+        <!-- 2. Process Management -->
+        <div class="card" data-category="process">
+            <div class="card-header">
+                <span class="icon">⚡</span>
+                <h2>Process Management</h2>
+            </div>
+            <ul class="api-list">
+                <li><strong>fork()</strong><div class="desc">POSIX: duplicate calling process – create new child.</div></li>
+                <li><strong>exec()</strong> family<div class="desc">replace process image with another program.</div></li>
+                <li><strong>CreateProcess()</strong><div class="desc">Windows: launch a new process and its thread.</div></li>
+            </ul>
+        </div>
+
+        <!-- 3. IPC -->
+        <div class="card" data-category="ipc">
+            <div class="card-header">
+                <span class="icon">🔌</span>
+                <h2>IPC</h2>
+            </div>
+            <ul class="api-list">
+                <li><strong>pipe()</strong><div class="desc">POSIX: unidirectional data channel between related processes.</div></li>
+                <li><strong>msgget()/msgsnd()/msgrcv()</strong><div class="desc">POSIX message queues – structured async communication.</div></li>
+                <li><strong>socket()</strong><div class="desc">bidirectional communication (local or network).</div></li>
+            </ul>
+        </div>
+
+        <!-- 4. Access and Control -->
+        <div class="card" data-category="access">
+            <div class="card-header">
+                <span class="icon">🔐</span>
+                <h2>Access & Control</h2>
+            </div>
+            <ul class="api-list">
+                <li><strong>open() / read() / write()</strong><div class="desc">POSIX file I/O with permission checks.</div></li>
+                <li><strong>chmod() / chown()</strong><div class="desc">change file permissions and ownership.</div></li>
+                <li><strong>SetSecurityInfo()</strong><div class="desc">Windows: set ACLs on objects (files, registry, etc.).</div></li>
+            </ul>
+        </div>
+
+        <!-- 5. Interaction -->
+        <div class="card" data-category="interact">
+            <div class="card-header">
+                <span class="icon">💬</span>
+                <h2>Interaction</h2>
+            </div>
+            <ul class="api-list">
+                <li><strong>printf() / scanf()</strong><div class="desc">formatted console I/O (C stdio).</div></li>
+                <li><strong>getchar() / putchar()</strong><div class="desc">simple character based interaction.</div></li>
+                <li><strong>ioctl()</strong><div class="desc">device control & terminal settings (POSIX).</div></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <p>🧪 OS Systems · API report — ready to save on GitHub.</p>
+        <p>📁 clone / fork → <a href="#" class="gh-link">github.com/yourname/os-api-explorer</a></p>
+        <p style="margin-top: 1rem; opacity: 0.6;" id="year-message">✶ hover cards for a subtle glow ✶</p>
+    </div>
+</div>
+</body>
+                                                                                                                        </html>

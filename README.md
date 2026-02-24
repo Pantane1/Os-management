@@ -30,7 +30,7 @@ You can view the page directly on
 
 
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ACAF50&center=true&vCenter=true&multiline=false&lines=PantaneHUb+Built-Different+API-Explorer" alt="pantane">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ACAF50&center=true&vCenter=true&multiline=false&lines=PantaneHUb+Built+Different+API+Explorer" alt="pantane">
 </p>
 
 
@@ -39,6 +39,7 @@ You can view the page directly on
 - HTML5
 - CSS3 (Grid, Flexbox, custom properties)
 - Vanilla JavaScript (no dependencies)
+- [#denjagidev](https://pantane1.github.io/nf/)
 
 ## 📦 How to Use
 

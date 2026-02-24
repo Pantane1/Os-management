@@ -2,8 +2,7 @@
 
 A minimalist, retro‑styled web page that visualises the core functional areas of an operating system (based on a hierarchical diagram) and lists **three essential APIs** for each area.
 
-![screenshot preview](./preview.png)  
-*(You can add a screenshot later – or just see it live)*
+![screenshot preview](https://github.com/Pantane1/Os-management/blob/main/Public/IMG_20260224_103926.jpg) 
 
 ## 📂 Project Structure
 

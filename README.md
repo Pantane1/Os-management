@@ -25,9 +25,9 @@
 
 ## 🚀 Live Demo
 
-You can view the page directly on **GitHub Pages**:  
-[https://yourusername.github.io/os-api-explorer](https://yourusername.github.io/os-api-explorer)  
-*(Replace `yourusername` with your actual GitHub username and enable Pages in the repository settings.)*
+You can view the page directly on
+**[GitHub Pages](https://pantane1.github.io/Os-management/)**
+
 
 ## 🛠️ Built With
 
@@ -39,7 +39,7 @@ You can view the page directly on **GitHub Pages**:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/os-api-explorer.git
+   git clone https://pantane1.github.io/Os-management/
    ```
 2. Open `index.html` in any modern browser – that’s it!
 
